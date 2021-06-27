@@ -1,0 +1,43 @@
+            Anusha with dogs and their bones
+
+Anusha loves dogs so she always goes to dog's park and gives 
+each dog a paricular number of bones. All the dogs eagerly wait 
+for her to come and as she comes they line up to get bones.
+For the first dog she always gives 1 bone. 
+Then she gives bones to dogs by following next 2 operations
+-Then for the next dog she gives the next smallest number of bones 
+which is not yet given to any dog.
+-Then for next n-1 number of dogs where n is total number 
+of dogs for whome bones are given she gives same number of bones 
+as given for first n-1 dogs.
+
+Since Anusha is busy distributing bones to dogs. Could you help her know 
+how much bones did 'm'th dog got.
+And also tell the luckiest dog who got most number of bones.
+
+Input format:
+Input containing 2 space seperated integers first n then m
+
+Constraints:
+1<=n<=2*10^5
+1<=m<=n
+
+Output format:
+First print number of bones given to 'm'th dog and in next line print the number
+ of luckiest dog.
+
+ Sample Test Cases:
+ Input: 10 7
+ Output:1 8
+
+ Explaination: So there are 10 dogs then distribution of bones goes like
+               1, 2, 1, 3, 1, 2, 1, 4, 1, 2
+               So 7th dog got 1 bone and 8th dog was luckiest as it got 4 bones.
+
+Test Cases:
+1. 50 40                   4 32
+2. 100 66                  2 64
+3. 1000 899                1 512
+4. 98978 65536             17 65536
+5. 100000 86676            3 65536
+
